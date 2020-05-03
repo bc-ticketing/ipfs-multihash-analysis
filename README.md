@@ -62,11 +62,11 @@ gasCost (ether): 0.00139696 ether
 **Stroing CID as String in logs**
 
 ```solidity
-    event CIDStoredInTheLog(string _hash);
+event CIDStoredInTheLog(string _hash);
 
-    function storeCIDInTheLog(string memory _hash) public {
-        emit CIDStoredInTheLog(_hash);
-    }
+function storeCIDInTheLog(string memory _hash) public {
+    emit CIDStoredInTheLog(_hash);
+}
 ```
 
 ```
@@ -77,11 +77,11 @@ gasCost (ether): 0.0005535 ether
 **Stroing CID as String in logs**
 
 ```solidity
-    event CIDStoredInTheLog(string _hash);
+event CIDStoredInTheLog(string _hash);
 
-    function storeCIDInTheLog(string memory _hash) public {
-        emit CIDStoredInTheLog(_hash);
-    }
+function storeCIDInTheLog(string memory _hash) public {
+    emit CIDStoredInTheLog(_hash);
+}
 ```
 
 ```
