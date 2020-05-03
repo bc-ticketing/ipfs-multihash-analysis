@@ -8,6 +8,8 @@ The analogy of an IPFS CID multihash is defined as follows:
 
 ![alt text](./multihash.jpg "IPFS CID")
 
+For more information please read [this](https://github.com/multiformats/multihash).
+
 The fn code defines which hash-function is used. The complete table for all fn code can be found [here](https://ipfs.io/ipfs/QmXec1jjwzxWJoNbxQF5KffL8q6hFXm9QwUGaa3wKGk6dT/#title=Multicodecs&src=https://raw.githubusercontent.com/multiformats/multicodec/master/table.csv).
 
 ## Findings
