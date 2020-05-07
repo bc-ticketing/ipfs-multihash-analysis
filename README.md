@@ -76,13 +76,21 @@ gasUsed: 27675 units
 gasCost (ether): 0.0005535 ether
 ```
 
-**Stroing CID as String in logs**
+**Stroing CID as a Struct in logs**
 
 ```solidity
-event CIDStoredInTheLog(string _hash);
+event CIDStructStoredInTheLog(
+    bytes1 hash_function,
+    bytes1 size,
+    bytes32 hash
+);
 
-function storeCIDInTheLog(string memory _hash) public {
-    emit CIDStoredInTheLog(_hash);
+function storeCIDStructInTheLog(
+    bytes1 _hash_function,
+    bytes1 _size,
+    bytes32 _hash
+) public {
+    emit CIDStructStoredInTheLog(_hash_function, _size, _hash);
 }
 ```
 
